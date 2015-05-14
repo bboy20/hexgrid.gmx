@@ -64,23 +64,23 @@ if(index%2 == 0){
     //Up
     if(keyboard_check(ord('W'))){
         index-=100;
-    }
+    }else
     //Upleft
     if(keyboard_check(ord('Q'))){
         index-=1;
-    }
+    }else
     //Downleft
     if(keyboard_check(ord('A'))){
         index+=99;
-    }
+    }else
     //Down
     if(keyboard_check(ord('S'))){
         index+=100;
-    }
+    }else
     //Downright
     if(keyboard_check(ord('D'))){
         index+=101;
-    }
+    }else
     //Upright
     if(keyboard_check(ord('E'))){
         index+=1;
@@ -89,23 +89,23 @@ if(index%2 == 0){
     //Up
     if(keyboard_check(ord('W'))){
         index-=100;
-    }
+    }else
     //Upleft
     if(keyboard_check(ord('Q'))){
         index-=101;
-    }
+    }else
     //Downleft
     if(keyboard_check(ord('A'))){
         index-=1;
-    }
+    }else
     //Down
     if(keyboard_check(ord('S'))){
         index+=100;
-    }
+    }else
     //Downright
     if(keyboard_check(ord('D'))){
         index+=1;
-    }
+    }else
     //Upright
     if(keyboard_check(ord('E'))){
         index-=99;
